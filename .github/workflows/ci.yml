@@ -13,5 +13,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+      - name: Runs Github Checkout
+        uses: actions/checkout@v2
+      - name: DevSecOps Pipeline
+        uses: blackStarvation/devsecops-pipeline-test@v1
 
