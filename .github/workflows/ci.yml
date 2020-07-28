@@ -16,5 +16,5 @@ jobs:
       - name: Runs Github Checkout
         uses: actions/checkout@v2
       - name: DevSecOps Pipeline
-        uses: blackStarvation/devsecops-pipeline-test@v1.3
+        uses: blackStarvation/devsecops-pipeline-test@v1.4
 
