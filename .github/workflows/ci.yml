@@ -14,5 +14,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: See system config
-    - run: ls -l && whoami
+    - name: System config
+    - run: whoami
